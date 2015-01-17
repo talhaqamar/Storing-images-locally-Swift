@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE781FBE1A6A90ED005582DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE781FBD1A6A90ED005582DD /* AppDelegate.swift */; };
+		DE781FC01A6A90ED005582DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE781FBF1A6A90ED005582DD /* ViewController.swift */; };
+		DE781FC31A6A90ED005582DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE781FC11A6A90ED005582DD /* Main.storyboard */; };
+		DE781FC51A6A90ED005582DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE781FC41A6A90ED005582DD /* Images.xcassets */; };
+		DE781FC81A6A90ED005582DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE781FC61A6A90ED005582DD /* LaunchScreen.xib */; };
+		DE781FD41A6A90EE005582DD /* Storing_images_locallyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE781FD31A6A90EE005582DD /* Storing_images_locallyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE781FCE1A6A90EE005582DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE781FB01A6A90ED005582DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE781FB71A6A90ED005582DD;
+			remoteInfo = "Storing images locally";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE781FB81A6A90ED005582DD /* Storing images locally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storing images locally.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE781FBC1A6A90ED005582DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE781FBD1A6A90ED005582DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE781FBF1A6A90ED005582DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE781FC21A6A90ED005582DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE781FC41A6A90ED005582DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DE781FC71A6A90ED005582DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DE781FCD1A6A90EE005582DD /* Storing images locallyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Storing images locallyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE781FD21A6A90EE005582DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE781FD31A6A90EE005582DD /* Storing_images_locallyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storing_images_locallyTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE781FB51A6A90ED005582DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE781FCA1A6A90EE005582DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE781FAF1A6A90ED005582DD = {
+			isa = PBXGroup;
+			children = (
+				DE781FBA1A6A90ED005582DD /* Storing images locally */,
+				DE781FD01A6A90EE005582DD /* Storing images locallyTests */,
+				DE781FB91A6A90ED005582DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE781FB91A6A90ED005582DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE781FB81A6A90ED005582DD /* Storing images locally.app */,
+				DE781FCD1A6A90EE005582DD /* Storing images locallyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE781FBA1A6A90ED005582DD /* Storing images locally */ = {
+			isa = PBXGroup;
+			children = (
+				DE781FBD1A6A90ED005582DD /* AppDelegate.swift */,
+				DE781FBF1A6A90ED005582DD /* ViewController.swift */,
+				DE781FC11A6A90ED005582DD /* Main.storyboard */,
+				DE781FC41A6A90ED005582DD /* Images.xcassets */,
+				DE781FC61A6A90ED005582DD /* LaunchScreen.xib */,
+				DE781FBB1A6A90ED005582DD /* Supporting Files */,
+			);
+			path = "Storing images locally";
+			sourceTree = "<group>";
+		};
+		DE781FBB1A6A90ED005582DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE781FBC1A6A90ED005582DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE781FD01A6A90EE005582DD /* Storing images locallyTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE781FD31A6A90EE005582DD /* Storing_images_locallyTests.swift */,
+				DE781FD11A6A90EE005582DD /* Supporting Files */,
+			);
+			path = "Storing images locallyTests";
+			sourceTree = "<group>";
+		};
+		DE781FD11A6A90EE005582DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE781FD21A6A90EE005582DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE781FB71A6A90ED005582DD /* Storing images locally */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE781FD71A6A90EE005582DD /* Build configuration list for PBXNativeTarget "Storing images locally" */;
+			buildPhases = (
+				DE781FB41A6A90ED005582DD /* Sources */,
+				DE781FB51A6A90ED005582DD /* Frameworks */,
+				DE781FB61A6A90ED005582DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Storing images locally";
+			productName = "Storing images locally";
+			productReference = DE781FB81A6A90ED005582DD /* Storing images locally.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE781FCC1A6A90EE005582DD /* Storing images locallyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE781FDA1A6A90EE005582DD /* Build configuration list for PBXNativeTarget "Storing images locallyTests" */;
+			buildPhases = (
+				DE781FC91A6A90EE005582DD /* Sources */,
+				DE781FCA1A6A90EE005582DD /* Frameworks */,
+				DE781FCB1A6A90EE005582DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE781FCF1A6A90EE005582DD /* PBXTargetDependency */,
+			);
+			name = "Storing images locallyTests";
+			productName = "Storing images locallyTests";
+			productReference = DE781FCD1A6A90EE005582DD /* Storing images locallyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE781FB01A6A90ED005582DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Talha Qamar";
+				TargetAttributes = {
+					DE781FB71A6A90ED005582DD = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					DE781FCC1A6A90EE005582DD = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = DE781FB71A6A90ED005582DD;
+					};
+				};
+			};
+			buildConfigurationList = DE781FB31A6A90ED005582DD /* Build configuration list for PBXProject "Storing images locally" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE781FAF1A6A90ED005582DD;
+			productRefGroup = DE781FB91A6A90ED005582DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE781FB71A6A90ED005582DD /* Storing images locally */,
+				DE781FCC1A6A90EE005582DD /* Storing images locallyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE781FB61A6A90ED005582DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE781FC31A6A90ED005582DD /* Main.storyboard in Resources */,
+				DE781FC81A6A90ED005582DD /* LaunchScreen.xib in Resources */,
+				DE781FC51A6A90ED005582DD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE781FCB1A6A90EE005582DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE781FB41A6A90ED005582DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE781FC01A6A90ED005582DD /* ViewController.swift in Sources */,
+				DE781FBE1A6A90ED005582DD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE781FC91A6A90EE005582DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE781FD41A6A90EE005582DD /* Storing_images_locallyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE781FCF1A6A90EE005582DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE781FB71A6A90ED005582DD /* Storing images locally */;
+			targetProxy = DE781FCE1A6A90EE005582DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE781FC11A6A90ED005582DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE781FC21A6A90ED005582DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE781FC61A6A90ED005582DD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE781FC71A6A90ED005582DD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE781FD51A6A90EE005582DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE781FD61A6A90EE005582DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE781FD81A6A90EE005582DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Storing images locally/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE781FD91A6A90EE005582DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Storing images locally/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DE781FDB1A6A90EE005582DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Storing images locallyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Storing images locally.app/Storing images locally";
+			};
+			name = Debug;
+		};
+		DE781FDC1A6A90EE005582DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Storing images locallyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Storing images locally.app/Storing images locally";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE781FB31A6A90ED005582DD /* Build configuration list for PBXProject "Storing images locally" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE781FD51A6A90EE005582DD /* Debug */,
+				DE781FD61A6A90EE005582DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE781FD71A6A90EE005582DD /* Build configuration list for PBXNativeTarget "Storing images locally" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE781FD81A6A90EE005582DD /* Debug */,
+				DE781FD91A6A90EE005582DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE781FDA1A6A90EE005582DD /* Build configuration list for PBXNativeTarget "Storing images locallyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE781FDB1A6A90EE005582DD /* Debug */,
+				DE781FDC1A6A90EE005582DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE781FB01A6A90ED005582DD /* Project object */;
+}
